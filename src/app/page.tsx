@@ -96,7 +96,7 @@ export default function Home() {
           </p>
         ))
         : "No quotes found for this topic.",
-      duration: 8000,
+      // duration: 8000,
     });
   }
 
@@ -105,7 +105,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-muted">
+    <div className="flex justify-center items-center transform h-11/12">
       <Card className="w-full max-w-md shadow-lg">
         <CardHeader>
           <CardTitle>Generate Quote</CardTitle>

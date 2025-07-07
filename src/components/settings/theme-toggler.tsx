@@ -21,6 +21,7 @@ export function ModeToggle() {
   }, []);
 
   return (
+    <div className="w-max place-self-end p-1">
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant="outline" size="icon">
@@ -44,5 +45,6 @@ export function ModeToggle() {
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
+    </div>
   );
 }
